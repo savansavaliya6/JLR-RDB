@@ -1,0 +1,68 @@
+.app {
+  /* font-family: "LandRoverMedium"; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* height: 100vh; */
+  /* font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; */
+  font-family: "LandRoverMedium";
+  background-color: #2d3a4b;
+}
+
+input[type="text"],
+input[type="password"] {
+  height: 30px;
+  width: 25rem;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  font-size: 20px;
+  background: #01d28e;
+  border: 1px solid #01d28e;
+  color: #fff;
+  padding: 6px;
+  width: 26rem;
+  border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+  background: #6cf0c2;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  padding: 2rem;
+  margin-top: 10rem;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+}
+.user-name {
+  font-size: 20px;
+  color: #fff;
+}
+.user-name1 {
+  margin-top: 2rem;
+  font-size: 20px;
+  color: #fff;
+}

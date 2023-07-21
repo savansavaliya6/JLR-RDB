@@ -1,0 +1,53 @@
+input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  /* vertical-align: middle; */
+  /* margin-left: 5px; */
+  width: 50%;
+}
+
+label {
+  display: inline-block;
+  *display: inline;
+  /* zoom: 1; */
+  /* float: left; */
+  padding-top: 5px;
+  text-align: left;
+  width: 170px;
+  font-size: 15px;
+}
+
+select {
+  /* margin-left: 10px; */
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 50%;
+}
+.rdt_TableCol {
+  justify-content: center;
+  /* text-align: center; */
+}
+
+.hover-effect {
+  font-size: 12px;
+  cursor: default;
+}
+
+.hover-effect:hover {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.hover-effect-defualt{
+  font-size: 15px;
+  cursor: pointer;
+ }
+.alignment-input{
+  margin-top: 3%;
+}
+.alignment-label{
+  margin-top: 2%;
+}

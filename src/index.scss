@@ -1,0 +1,18 @@
+@import "../node_modules/prismjs/themes/prism-tomorrow";
+@import "./assets/scss/app.scss";
+
+@font-face {
+  font-family: "LandRoverMedium";
+  src: local("LandRoverMedium"),
+    url("../src/assets/fonts/LandRoverOT4-Medium.woff2") format("woff2");
+}
+
+* {
+  font-family: "LandRoverMedium";
+}
+
+.alignment {
+  margin-top: 2%;
+}
+
+

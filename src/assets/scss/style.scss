@@ -1,0 +1,44 @@
+/*================================================================================
+	Item Name: jlr - Vuejs, HTML & Laravel Admin Dashboard Template
+	Version: 2.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+@font-face {
+  font-family: "LandRoverMedium";
+  src: local("LandRoverMedium"),
+    url("../fonts/LandRoverOT4-Medium.woff2") format("woff2");
+}
+
+/*** Dev Css ***/
+.form-control {
+  padding: 0.571rem 1rem;
+  background-color: #fff;
+  background-clip: padding-box;
+  border-radius: 0.357rem;
+  margin-top: 6px;
+  font-size: 15px;
+  color: black;
+}
+label.label.form-control.form-label {
+  border: 0;
+  padding: 0.571rem 0rem;
+}
+
+.form-control:focus {
+  border-color: #000000;
+}
+
+.swal-space-right {
+  margin-right: 10px;
+}
+
+.swal-space-left {
+  margin-left: 10px;
+}
